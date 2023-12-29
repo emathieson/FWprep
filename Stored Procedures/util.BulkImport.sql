@@ -1,12 +1,13 @@
 USE [FWprep]
 GO
 
-/****** Object:  StoredProcedure [util].[BulkImport]    Script Date: 12/29/2023 10:45:48 AM ******/
+/****** Object:  StoredProcedure [util].[BulkImport]    Script Date: 12/29/2023 11:04:52 AM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+
 
 
 
@@ -24,7 +25,7 @@ PURPOSE:
 This is a bulk insert tool.
 Fill out the variables and you can easily bulk insert into a pre-existing table
 
-Table is the table name, including the schema, but without the database name.
+Table is the table name, including the schema, with or without database name.
 FileName is the base file name WITHOUT the .csv text. Files should be placed here: C:\Users\emily\Documents\SQL\BULK INSERT FILES
 Truncate is either True or False
 
